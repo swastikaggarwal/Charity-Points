@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-baloo-bhai: "Baloo Bhai";
+  --public-sans-text-sm-regular: "Public Sans";
+  --font-montserrat: Montserrat;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --public-sans-text-xs-regular-size: 12px;
+  --font-size-xs-2: 11.2px;
+  --font-size-sm-5: 13.5px;
+  --font-size-2xs-5: 10.5px;
+  --font-size-3xs-7: 9.7px;
+  --font-size-4xs: 9px;
+  --font-size-xl: 20px;
+  --public-sans-text-sm-regular-size: 14px;
+  --public-sans-text-md-semibold-size: 16px;
+
+  /* Colors */
+  --primary-contrast: #fff;
+  --color-whitesmoke-100: #f3f6f9;
+  --color-whitesmoke-200: #eaeaea;
+  --color-orange: #f99a0e;
+  --color-gray-100: #8e8e94;
+  --light-type-high: #070a13;
+  --text-secondary: rgba(0, 0, 0, 0.6);
+  --text-primary: rgba(0, 0, 0, 0.87);
+  --other-outlined-border: rgba(0, 0, 0, 0.23);
+  --color-darkslategray-100: #464e5f;
+  --color-darkslategray-200: #424242;
+  --heading: #1d3557;
+  --grey-grey-300: #e0e0e0;
+  --grey-grey-400: #bdbdbd;
+  --color-silver-100: #b5b5c3;
+  --grey-grey-700: #616161;
+  --light-type-medium: #64748b;
+  --light-red-500: #ff5c34;
+  --light-neutrals-300: #e2e8f0;
+  --secondary: #dce8f5;
+  --primary: #457b9d;
+
+  /* Gaps */
+  --gap-mini: 15px;
+  --gap-7xl-9: 26.9px;
+  --gap-7xs: 6px;
+  --gap-5xs: 8px;
+  --gap-3xl: 22px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-11xl: 30px;
+  --padding-xl: 20px;
+  --padding-mini: 15px;
+  --padding-9xs-7: 3.7px;
+  --padding-4xs: 9px;
+  --padding-xs-2: 11.2px;
+  --padding-10xs: 3px;
+  --padding-10xs-2: 2.2px;
+  --padding-8xs-5: 4.5px;
+  --padding-5xs: 8px;
+  --padding-5xl: 24px;
+  --padding-xs: 12px;
+
+  /* border radiuses */
+  --br-xs: 12px;
+  --br-10xs: 3px;
+  --br-28xl-8: 47.8px;
+  --br-81xl: 100px;
+  --br-mini: 15px;
+}
