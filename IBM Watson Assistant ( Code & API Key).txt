@@ -1,0 +1,26 @@
+## IBM Watson Assitant  Embed Code : 
+THis code if for Chatbot Name Charity Points+ you can run this in your Javascript 
+
+
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "12650214-b8c0-4e1a-99f6-408259800e97", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "106aa994-9b93-40c0-8264-baf6c87cdf3f", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+
+
+## API KEY 
+
+g5zv1TuXoobQuBk233Il4stBjOEKF0PDu1zYoJc6pief 
+
+## URL 
+https://api.au-syd.assistant.watson.cloud.ibm.com/instances/106aa994-9b93-40c0-8264-baf6c87cdf3f
